@@ -14,7 +14,7 @@ public class startPath : MonoBehaviour
     {
         if (c.gameObject.tag == "front")
         {
-            //Debug.Log(c.name);
+            Debug.Log("STARTING!");
             drawPath.StartLine();
         }
     }
